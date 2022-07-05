@@ -1,0 +1,272 @@
+.header_top{
+    height: 45px;
+    width: 100vw;
+    background: #17a2b8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left_menu_header_top{
+    color: white;
+    display: flex;
+    gap: 20px;
+    font-size: 10px;
+}
+
+ul > li {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+}
+
+.right_menu_header_top{
+    color: white;
+    display: flex;
+    gap: 10px;
+    font-size: 10px;
+}
+.right_menu_header_top > li {
+    white-space: nowrap;
+}
+
+.right_menu_header_top :nth-child(2){
+    background-color: #fdb913;
+    width: 200px;
+}
+
+.header_bottom{
+    height: 60px;
+    width: 100vw;
+    background: rgb(27, 175, 216);
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+
+.left_menu_header_bottom {
+    align-items: center;
+    color: white;
+    display: flex;
+    gap: 15px;
+}
+.right_menu_header_bottom {
+    align-items: center;
+    color: white;
+    display: flex;
+    gap: 15px;
+
+}
+
+.main_section {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100vw;
+    height: 78.5vh;
+    background-image: url('./assets/crefisa-emprestimo.jpg');
+    background-position: center center;
+    background-size: auto;
+}
+
+.main_pic {
+   width: 100%;
+   height: 100%;
+}
+.main_btn{
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    border-radius: .25rem;
+    letter-spacing: 1.5px;
+    background-color: #fdb913;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: 9.5%;
+    margin-top: 24%;
+    width: 220px;
+    height: 45px;
+}
+.main_btn:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.warning {
+    width: 100%;
+    background-color: #fdb913;
+    min-height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.warn_msg{
+    margin-left: 10%;
+}
+
+
+.our_products {
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom,
+     #f8f9fa 50%, #fff 50%);
+}
+
+.low_title{
+    font-size: 17px;
+    color: #888888;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 20.4px;
+    margin-top: 95px;
+    width: 80%;
+}
+
+.top_title{
+    color: #23b9e2;
+    font-size: 60px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    text-align: left;
+    width: 80%;
+}
+.products_list{
+    margin-top: 50px;
+    display: flex;
+    width: 95vw;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.list_item {
+    width: 300px;
+    height: 500px;
+}
+
+.product_container{
+margin: 20px;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.product_container > button {
+    margin-top: 10px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #fdb913;
+    color: white;
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    border-radius: .25rem;
+    width: 100%;
+    height: 45px;
+}
+
+.product_container > h3{
+    margin-top: 5px;
+    color: #23b9e2;
+    font-size: 23px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    width: 90%;   
+
+}
+.product_container > img {
+    width: 250px;
+    height: 250px;
+}
+
+.product_container > p {
+    color: #212529;
+    font-size: 15px;
+    line-height: 22.5px;
+    text-align: left;
+    width: 80%;
+    margin-top: 5px;
+    text-transform: none;
+
+}
+
+.service_points_container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.service_points_infos{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    align-items: center;
+}
+.service_points_infos > p {
+    margin-top: 15px;
+    font-size: 3.5rem;
+}
+.service_points_infos > span{
+    color: rgb(33, 37, 41);
+
+}
+
+
+.service_points_menus{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 10px;
+}
+.service_points_menus > input{
+    border-radius: .25rem;
+    height: 50px;
+    width: 80%;
+}
+
+.btn_section{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.type_addres_btn {
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid rgb(33, 37, 41);
+    border-radius: 4px;
+    width: 40%;
+    cursor: pointer;
+
+}
+.type_addres_btn:hover{
+    background-color: rgb(33, 37, 41);
+    color: white;
+    transition: 0.2s;
+    
+}
+.src_place {
+    background-color: #fdb913;
+    height: 45px;
+    border: none;
+    color: white;
+    border-radius: .25rem;
+    letter-spacing: 1.5px;
+    width: 40%;
+    cursor: pointer;
+}
+.src_place:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}
